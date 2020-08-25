@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<hmtl>
+<head>
+	<title>Whatever</title>
+</head>
+<body>
+	<style>
+		@keyframes animate {
+			0%, 100% { color: #fff; }
+			 50% {color: #f00;}
+		}
+		*{
+			box-sizing: inherit;
+			transition: all 0.6s ease;
+		}
+		html,body {
+			min-height: 100%;
+			width: 100%;
+			font-weight: 400;
+			display: flex;
+			justify-content: center;
+			align-items:center;
+			font-family: poppins;
+			text-transform: uppercase;
+			background-color: #111;
+		}
+		.button{
+			padding: 0.7rem 1rem;
+			font-size: 12px;
+			border: 3px solid #0ff;
+			border-radius: 50px;
+			cursor: pointer;
+			background: #000;
+			color: #0ff;
+		}
+		.button:hover{
+			background: #000;
+			color: #0ff;
+			box-shadow: 0 0 21px 0 #15f4ee inset, 0 0 50px 0 #15fff4ee;
+			text-shadow: 0 0 4px #15f4ee, 0 0 3px #15f433;
+		}
+	</style>
+	<div class="button button-fill">Neon Power</div>
+</body>
+</html>
