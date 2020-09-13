@@ -6,20 +6,40 @@
 </head>
 <body>
 	<style>
+		body{
+			position: relative;
+			box-sizing: border-box;
+		}
+		ul{
+			list-style: none;
+		}
 		div > span {
 			color: red;
 			background-color: black;
 		}
-		section > ul{
-			text-align: left;
+		section > ul > li{
+			float: right;
 			color: blue;
+			margin-right: 5px;
+
+
+		} 
+		.container {
+			background-color: #E0FFFF;
+			position: relative;
 		}
+
 		article > ul {
 			text-align: right;
 			color: blue;
+			clear:right;
+			position: relative;
+			top: 5px;
+			right: 100px;
 		}
 	</style>
 	<h1>Kimi No Nawa</h1>
+	<div class="container">
 	<section>
 		<ul>
 			<li>Anime</li>
@@ -35,12 +55,14 @@
 				<li>Aamel</li>
 			</ul>
 	</article>
+</div>
 	<div>
 		hehe
 		<span>
 			d hrr ka tot kwi kwi
 		</span>
 	</div>
+	
 
 </body>
 </html>
