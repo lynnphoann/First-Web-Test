@@ -31,10 +31,12 @@ body{
 .first-s{
     color: #c21212;
     font-size: 25px;
+    text-shadow: 3px 3px 2px black;
     /* font-weight: bold; */
 }
 .second-s{
     color:  #1b1b1ba1 ;
+    text-shadow: 2px 2px 3px white ;
 }
 p {
     text-align: center;
