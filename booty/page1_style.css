@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+/* a:link {
+    padding-right: 20px;
+    padding-left: 20px;
+} */
+.logo img{
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 70px;
+    background-size: cover;
+    height: 95px;
+    width: 100px;
+}
+.nav-container{
+    background-color: #ffb7b7;
+    height: 80px;
+}
+.my-nav{
+    position: relative;
+    top: 15px;
+    margin-right: 40px;
+}
+.nav-container > .my-nav > li{
+    margin-right: 60px;
+}
+.my-dropdown {
+    background-color: #c3c2c280 ;
+}
+a{
+    color: black;
+}
+
+.my-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.my-row > div{
+    height: 200px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: -10px;
+}

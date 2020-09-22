@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+}
+.my-row{
+    height:100vh;
+}
+.my-container{
+    height: 100vh;
+
+}
+
+
+.mycol-1{
+    background: url("logo(1).png") no-repeat center ;
+    background-position: 50%;
+    background-size: cover;
+
+}
+.mycol-2{
+    background: url("lemshot.jpg");
+    background-size: cover;
+    background-position: 50%;
+}
+.first-s{
+    color: #c21212;
+    font-size: 25px;
+    /* font-weight: bold; */
+}
+.second-s{
+    color:  #1b1b1ba1 ;
+}
+p {
+    text-align: center;
+    position: relative;
+    top: 45%;
+}
+a:link,a:visited {
+    border: 2px solid #fd0101;
+    color: #e47373;
+    border-radius: 0px;
+    text-decoration: none ;
+    font-size: 13px;
+    padding: 10px 12px;
+    /* display: inline-block; */
+}
+.mybtn1{ 
+    position: absolute;
+    left: 30%;
+    top: 70%;
+}
+.mybtn2{
+    position: absolute;
+    left: 55%;
+    top: 70%;
+}
+a:hover,a:active{
+    background-color: #e47373;
+    color: white;
+    border: 2px solid #e47373;
+}
+
